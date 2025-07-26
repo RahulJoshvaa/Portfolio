@@ -53,18 +53,18 @@ export default function Project() {
 
     return (
         <div className="flex flex-col my-8 min-h-[500px]">
-            <div className="text-center anton-regular text-[90px]">Projects</div>
-            <div className="flex flex-row justify-between">
-                <div className="flex flex-col ml-8 max-w-[600px]">
-                    <div className="anton-regular text-[50px]">
+            <div className="mb-4 text-center anton-regular text-[45px] lg:text-[90px]">Projects</div>
+            <div className="flex flex-col lg:flex-row justify-between">
+                <div className="mx-3 flex flex-col lg:ml-8 lg:max-w-[600px]">
+                    <div className="anton-regular text-[20px] lg:text-[50px]">
                         {content.heading}
                     </div>
-                    <div className="inter-regular min-h-[200px]">
+                    <div className="inter-regular min-h-[180px] lg:min-h-[200px]">
                         {content.description}
                     </div>
                 </div>
-                    <div className="w-[600px] h-[330px] rounded-xl border-[2px] border-black mr-8">
-                        <img key={image} className="h-full w-full rounded-xl object-fill fade-inn" src={image}/>
+                    <div className="max-h-[200px] lg:max-h-[330px] mx-3 lg:w-[600px] lg:h-[330px] rounded-xl border-[2px] border-black lg:mr-8 overflow-hidden">
+                        <img key={image} className="h-full w-full rounded-xl  overflow-hidden fade-inn" src={image}/>
                     </div>
             </div>
 

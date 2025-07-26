@@ -4,18 +4,18 @@ export default function Footer(){
 
     return (
         <div className="flex flex-col bg-black">
-        <div className="flex flex-row justify-evenly">
-            <div className="flex flex-col my-[50px]">
-                <div className="anton-regular text-white text-[30px] ">
+        <div className="flex flex-row justify-evenly w-screen items-center">
+            <div className="flex flex-col my-[50px] ml-2">
+                <div className="anton-regular text-white lg:text-[30px] ">
                     Rahul Joshva M
                 </div>
-                <div className="caveat-regular text-white text-[25px]">
+                <div className="caveat-regular text-white lg:text-[25px]">
                     Building Ideas With Code And Creativity<br/>
                     rahuljoshva2310840@ssn.edu.in
                 </div>
 
             </div>
-            <div className="flex flex-row my-[75px] ml-[290px]">
+            <div className="flex flex-col lg:flex-row lg:my-[75px] lg:ml-[290px] lg:mr-3">
                 <div className="mr-5"><a href="https://www.gmail.com" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/ffffff/mail.png" alt="mail"/>
                 </a>
                 </div>
@@ -26,7 +26,7 @@ export default function Footer(){
                 </a></div>
             </div>
             </div>
-            <div className="text-center text-white justify-center inter-regular mb-5">
+            <div className="mb-2 text-center text-white justify-center inter-regular lg:mb-[40px]">
                 © 2025 Rahul Joshva M.<br/>
                 <h1 >Made with 💻 & ☕ in India.</h1>
 

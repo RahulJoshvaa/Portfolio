@@ -50,22 +50,22 @@ export default function Experience() {
 
     return (
         <div className="flex flex-col mb-9">
-            <div className="flex flex-row justify-center items-center">
-            <div className="text-center anton-regular text-[90px] mr-7">
+            <div className="flex flex-row justify-center items-center mb-3">
+            <div className="text-center anton-regular  text-[35px] lg:text-[90px] mr-2 lg:mr-7">
                 Experience Working For
             </div>
-            <div className="w-[100px] h-[100px] transition-all">
+            <div className="w-[40px] h-[40px] lg:w-[100px] lg:h-[100px] transition-all">
                 <img key={image} src={image} alt="logo" className="fade-inn"></img>
             </div>
             </div>
-            <div className="flex flex-row">
-                <div className="w-[600px] h-[330px] ml-9 my-3 rounded-xl border-[2px] border-black ">
+            <div className="flex flex-col lg:flex-row">
+                <div className=" mx-3 lg:w-[600px] lg:h-[330px] lg:ml-9 lg:my-3 rounded-xl border-[2px] border-black min-h-[250px]">
                     <img  key={eximage} className="w-full h-full rounded-xl fade-inn" src={eximage}/>
                 </div>
-                <div className="flex flex-col ml-[60px] w-[570px] my-3">
-                    <div className="anton-regular text-[50px]">{content.heading}</div>
-                    <div className="inter-regular min-h-[200px]">{content.description}</div>
-                    <div className="flex flex-row items-center">
+                <div className="mx-2 flex flex-col lg:ml-[60px] lg:w-[570px] my-3">
+                    <div className="text-[25px] anton-regular lg:text-[50px]">{content.heading}</div>
+                    <div className="text-justify inter-regular text-[15px] lg:text-[16px] min-h-[180px] lg:min-h-[200px]">{content.description}</div>
+                    <div className="flex flex-row items-center justify-center lg:justify-start">
                     <a href="/Rahul Joshva-3122235002096.pdf" download="RahulJoshvaM.pdf">
                     <button className="bg-[#fff000] text-black font-bold px-4 py-2 rounded-xl border border-black shadow-[4px_4px_0_#000] hover:shadow-none transition-all duration-200 w-[100px]">RESUME</button>
                     </a>
