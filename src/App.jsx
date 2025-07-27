@@ -19,8 +19,8 @@ function App() {
   }, []);
 
   return (
-    <>
-<div className="px-4 inter-regular items-center justify-between flex flex-row bg-white rounded-full border-2 border-black h-[30px] lg:h-[60px] w-[90%] max-w-[400px] fixed left-1/2 z-20 transform -translate-x-1/2 top-1 bottom-auto lg:top-auto lg:bottom-2">
+    <div className="overflow-x-hidden">
+<div className="px-4 inter-regular items-center justify-between flex flex-row bg-white rounded-full border-2 border-black h-[30px] lg:h-[60px] w-[95%] max-w-[400px] fixed left-1/2 z-20 transform -translate-x-1/2 top-1 bottom-auto lg:top-auto lg:bottom-2">
       <a href="#home">
       <div>Home</div>
       </a>
@@ -40,12 +40,12 @@ function App() {
     <div className="bg-green-300 min-h-screen m-0 p-6">
       <div id="home" className='bg-white rounded-md border-2 border-black shadow-xl'>
  <div
-      className={`h-[300px] items-center lg:h-[250px] flex flex-row justify-center lg:justify-end bg-[#1CA3F7] lg:p-[200px] lg:mb-[50px] transition-all duration-500
-      ${isTop ? 'rounded-[300px] m-[20px]' : 'rounded-none'}`}
+      className={`pl-4 h-[300px] items-center lg:h-[250px] flex flex-row justify-center lg:justify-end bg-[#1CA3F7] lg:p-[200px] lg:mb-[50px] transition-all duration-500
+      ${isTop ? 'rounded-[110px] m-[10px] lg:rounded-[300px] lg:m-[20px]' : 'rounded-none'}`}
     >          <div className='flex flex-col pr-[50px]'>
-          <h1 className='anton-regular text-[25px] lg:text-[30px] text-white'>HI I AM</h1>
-          <h1 className='anton-big text-[40px] lg:text-[70px] text-white'>RAHUL JOSHVA M</h1>
-          <div className='flex flex-row text-[20px] anton-regular lg:text-[30px] text-white'>
+          <h1 className='anton-regular text-[20px] lg:text-[30px] text-white'>HI I AM</h1>
+          <h1 className='anton-big text-[30px] lg:text-[70px] text-white'>RAHUL JOSHVA M</h1>
+          <div className='flex flex-row text-[17px] anton-regular lg:text-[30px] text-white'>
             <h1 className='mr-2'>I AM A/AN</h1>
             <AnimatedWords/>
           </div>
@@ -68,7 +68,7 @@ function App() {
         </div>
       </div>
     </div>
-    </>
+    </div>
   );
 }
 

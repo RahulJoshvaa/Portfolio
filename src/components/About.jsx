@@ -40,7 +40,7 @@ export default function About() {
         </div>
       </div>
 
-      <div onClick={updateAbout} className="w-[300px] lg:w-[600px] inter-regular cursor-pointer text-justify min-h-[320px] lg:min-h-[200px]">
+      <div onClick={updateAbout} className="w-[80%] lg:w-[600px] inter-regular cursor-pointer text-justify min-h-[320px] lg:min-h-[200px]">
         {about}
       </div>
 

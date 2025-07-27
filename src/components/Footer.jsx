@@ -5,7 +5,7 @@ export default function Footer(){
     return (
         <div className="flex flex-col bg-black">
         <div className="flex flex-row justify-evenly w-screen items-center">
-            <div className="flex flex-col my-[50px] ml-2">
+            <div className="flex flex-col my-[50px]">
                 <div className="anton-regular text-white lg:text-[30px] ">
                     Rahul Joshva M
                 </div>
@@ -15,11 +15,11 @@ export default function Footer(){
                 </div>
 
             </div>
-            <div className="flex flex-col lg:flex-row lg:my-[75px] lg:ml-[290px] lg:mr-3">
-                <div className="mr-5"><a href="https://www.gmail.com" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/ffffff/mail.png" alt="mail"/>
+            <div className=" mr-12 flex flex-col lg:flex-row lg:my-[75px] lg:ml-[290px] lg:mr-3">
+                <div className="lg:mr-5"><a href="https://www.gmail.com" target="_blank"><img width="48" height="48" src="https://img.icons8.com/material-outlined/48/ffffff/mail.png" alt="mail"/>
                 </a>
                 </div>
-                <div className="mr-5">
+                <div className="lg:mr-5">
                     <a href="https://www.linkedin.com/in/rahul-joshva/" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="linkedin"/></a>
                 </div>
                 <div><a href="https://www.github.com/RahulJoshvaa" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-glyphs/60/ffffff/github.png" alt="github"/>

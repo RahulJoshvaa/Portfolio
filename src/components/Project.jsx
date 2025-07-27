@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from "react";
+import aimlimage from '../assets/aiml.jpg';
+import portfolioimage from '../assets/portfolio.png';
+import binimage from '../assets/binNetwork.jpg';
+
 
 export default function Project() {
     let heading1 = 'Face Generation From Sketches'
@@ -10,9 +14,9 @@ export default function Project() {
     let heading3 = "Garbage Bin Management Network - [Ongoing]"
     let description3 = "Developing an AI-powered garbage bin monitoring system that uses computer vision to detect fill levels. Built a React-based dashboard to display bin statuses and planned optimized waste collection routes using mapping and routing algorithms for Garbage Trucks"
 
-    let image1 = 'src/assets/aiml.jpg'
-    let image2 = 'src/assets/portfolio.png'
-    let image3 = 'src/assets/binNetwork.jpg'
+    let image1 = aimlimage
+    let image2 = portfolioimage
+    let image3 = binimage
 
     const [content, setContent] = useState({"heading":heading1, "description":description1});
 
@@ -59,7 +63,7 @@ export default function Project() {
                     <div className="anton-regular text-[20px] lg:text-[50px]">
                         {content.heading}
                     </div>
-                    <div className="inter-regular min-h-[180px] lg:min-h-[200px]">
+                    <div className="text-justify inter-regular min-h-[180px] lg:min-h-[200px]">
                         {content.description}
                     </div>
                 </div>

@@ -63,3 +63,7 @@ body {
 .fade-inn {
   animation: fade-in 1s ease-in-out forwards;
 }
+html, body {
+  overflow-x: hidden !important;
+}
+
